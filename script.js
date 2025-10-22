@@ -20,7 +20,7 @@ const productos = [
   {
     nombre: "Edición Retro",
     precio: 35.99,
-    imagen: "images/camiseta4.jpg",
+    imagen: "Imagenes/Europa/Premier League/LIVERPOOL 3ERA 25-26 FAN Y PLAYER.jpeg",
     categoria: "especiales"
   }
 ];
@@ -36,9 +36,9 @@ function mostrarProductos(categoria = null) {
     const div = document.createElement("div");
     div.className = "producto";
     div.innerHTML = `
-      <img src="\${producto.imagen}" alt="Camiseta de \${producto.nombre}">
-      <h3>\${producto.nombre}</h3>
-      <p>Precio: $\${producto.precio}</p>
+      <img src="${producto.imagen}" alt="Camiseta de ${producto.nombre}">
+      <h3>${producto.nombre}</h3>
+      <p>Precio: ${producto.precio}</p>
       <button>Comprar</button>
     `;
     catalogo.appendChild(div);
