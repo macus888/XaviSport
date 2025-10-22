@@ -12,9 +12,9 @@ const productos = [
     categoria: "europeos"
   },
   {
-    nombre: "Boca Juniors",
+    nombre: "Penarol",
     precio: 25.99,
-    imagen: "images/camiseta3.jpg",
+    imagen: "https://github.com/macus888/XaviSport/blob/main/Imagenes/America/Uruguay/PE%C3%91AROL%20CASA.jpg",
     categoria: "latinoamericanos"
   },
   {
